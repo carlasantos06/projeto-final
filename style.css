@@ -1,0 +1,195 @@
+.logo img {
+    width: 128px;
+}
+
+header { 
+    display: flex;
+    width: 100%;
+    min-height: 64px;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.menu nav ul, .social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu nav ul li, .social ul li {
+    margin: 0px 12px;
+}
+
+.menu, .social {
+    display: flex;
+    align-items: center;
+}
+
+.menu a, .social a {
+    text-decoration: none;
+    color: black;
+}
+section.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.banner .conteudo {
+    background-color: #d5ebeb7d;
+    padding:12px;
+}
+section.banner .botao {
+    margin: 12px 12px;
+    background-color: rgb(96, 208, 236);
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+section.Sobre {
+    width: 100%;
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+section.Sobre .imagem img {
+    width: 50vw;
+}
+
+section.Sobre div {
+    width: 50vw;
+    overflow: hidden;
+}
+
+section.Sobre .conteudo {
+    margin: 12px 24px;
+}
+section.produtos {
+    width: 100%;
+    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+section.jumbotron {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 90px auto;
+    gap:22px ;
+}
+
+section.jumbotron div.banner-pequeno {
+    margin: 0px 25px;
+    padding: 42px;
+    border: 1px solid #4d4d4861;
+    background: #fafafa;
+    border-radius: 6px;
+
+}section.jumbotron div.banner-pequeno h3, section.formulario h3 {
+    font-size: 25px;
+    line-height: 0;
+}
+
+section.jumbotron div.banner-pequeno p, section.formulario p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+section.jumbotron div.banner-pequeno button, section.formulario #form input[type="submit"] {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 18px;
+}
+section.jumbotron div.banner-pequeno.dark{
+    border-color: transparent;
+    background-color: #212529;
+}
+section.jumbotron div.banner-pequeno.dark button,
+section.jumbotron div.banner-pequeno.dark p,
+section.jumbotron div.banner-pequeno.dark h3{
+    color:#fefefe;
+    border-color:#fefefe
+
+}
+section.jumbotron div.banner-pequeno button:hover, section.formulario #form input[ type="submit" ]:hover{
+    background-color: #212529 !important;
+    color: #fefefe;
+    background-color: #fefefe;
+    cursor: pointer;
+}
+section.jumbotron div.banner-pequeno.dark button:hover{
+    background-color: #fefefe !important;
+    color: #212529;
+    background-color: #212529
+}
+section.formulario form#form input {
+    width: 100%;
+    padding: 6px;
+    margin: 6px auto
+}
+section.formulario form#form input {
+    width: 100%;
+    padding: 6px;
+    margin: 6px auto
+}
+
+section.formulario form#form {
+    width: 60vw;
+    margin: 1rem auto;
+}
+
+section.formulario form#form input[type="submit"] {
+    width: 180px;
+    margin: 6px auto 6px 0px;
+}
+section.formulario h3, section p {text-align: center;
+}
+
+footer div.espacamento {
+    width: 100%;
+    height: 42px;
+    border-bottom: 2px solid #adadad63;
+    margin: 0px auto;
+}
+
+footer div.footer-interno{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 24px;
+    margin: 12px auto;
+    justify-content: space-around;
+    color: #7c7c7cc7;
+}
+
+footer div.footer-interno .footer-coluna-1 img {
+    width:96px;
+}
+
+footer .footer-interno .footer-coluna ul{
+    list-style:none;
+    padding: 0px;
+    margin:0px;
+}
+footer .footer-interno .footer-coluna ul li{
+    margin: 6px auto;
+}
+
+footer .footer-interno .footer-coluna ul li.titulo{
+    font-size:22px;
+    font-weight:800;
+    color:#363636
+}
